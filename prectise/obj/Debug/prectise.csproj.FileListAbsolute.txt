@@ -1,0 +1,7 @@
+C:\Users\Shubham.Prasad\source\repos\prectise\prectise\obj\Debug\prectise.csproj.AssemblyReference.cache
+C:\Users\Shubham.Prasad\source\repos\prectise\prectise\obj\Debug\prectise.csproj.CoreCompileInputs.cache
+C:\Users\Shubham.Prasad\source\repos\prectise\prectise\bin\Debug\prectise.exe.config
+C:\Users\Shubham.Prasad\source\repos\prectise\prectise\bin\Debug\prectise.exe
+C:\Users\Shubham.Prasad\source\repos\prectise\prectise\bin\Debug\prectise.pdb
+C:\Users\Shubham.Prasad\source\repos\prectise\prectise\obj\Debug\prectise.exe
+C:\Users\Shubham.Prasad\source\repos\prectise\prectise\obj\Debug\prectise.pdb

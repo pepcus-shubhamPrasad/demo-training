@@ -1,0 +1,41 @@
+﻿<body>
+    <h2>Card Payment</h2>
+    <form id="paymentForm">
+        <!-- Checkbox for Debit Card -->
+        <div class="form-group">
+            <label for="debitCardCheckbox">Payment Options:</label>
+            <input type="checkbox" id="debitCardCheckbox" name="paymentOption" value="debitCard">
+            <label for="debitCardCheckbox">Debit Card</label>
+        </div>
+
+        <!-- Select box for Debit Card -->
+        <div class="form-group">
+            <label for="cardType">Select Card Type:</label>
+            <select id="cardType" name="cardType">
+                <option value="">-- Select --</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="amex">American Express</option>
+            </select>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <button type="submit">Submit Payment</button>
+        </div>
+    </form>
+
+    <script>
+        document.getElementById("paymentForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const isCheckboxChecked = document.getElementById("debitCardCheckbox").checked;
+            const selectedCardType = document.getElementById("cardType").value;
+
+            if (isCheckboxChecked && selectedCardType) {
+                alert(`Payment submitted for ${selectedCardType}`);
+            } else {
+                alert("Please select both the Debit Card checkbox and a card type!");
+            }
+        });
+    </script>
+</body>

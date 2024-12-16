@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prectise", "prectise\prectise.csproj", "{DB5DFF51-5DD0-4B1F-A80F-A6228C2B1046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesign", "ObserverDesign\ObserverDesign.csproj", "{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{D6102850-E8F4-4A4B-A14C-793A465E962D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunction", "AzureFunction\AzureFunction.csproj", "{5EB8F20C-429C-4174-9911-E6FEE76CADF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB5DFF51-5DD0-4B1F-A80F-A6228C2B1046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5DFF51-5DD0-4B1F-A80F-A6228C2B1046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5DFF51-5DD0-4B1F-A80F-A6228C2B1046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5DFF51-5DD0-4B1F-A80F-A6228C2B1046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6102850-E8F4-4A4B-A14C-793A465E962D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6102850-E8F4-4A4B-A14C-793A465E962D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6102850-E8F4-4A4B-A14C-793A465E962D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6102850-E8F4-4A4B-A14C-793A465E962D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB8F20C-429C-4174-9911-E6FEE76CADF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB8F20C-429C-4174-9911-E6FEE76CADF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB8F20C-429C-4174-9911-E6FEE76CADF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB8F20C-429C-4174-9911-E6FEE76CADF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

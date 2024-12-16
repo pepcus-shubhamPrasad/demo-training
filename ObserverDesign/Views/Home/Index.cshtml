@@ -1,0 +1,39 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+<h1>Departments</h1>
+<div>
+	@using (Html.BeginForm("ITDept", "Home"))
+	{
+		<button class="btn btn-primary" style="float:left; margin-right:20px;" type="submit">IT</button>
+	}
+	@using (Html.BeginForm("Finance", "Home"))
+	{
+
+		<button class="btn btn-primary" style="float:left; margin-right:20px;" type="submit">Finance</button>
+	}
+
+	@using (Html.BeginForm("Hr", "Home"))
+	{
+
+		<button class="btn btn-primary" type="submit">Hr</button>
+	}
+	@using (Html.BeginForm("Manager", "Home"))
+	{
+
+		<button class="btn btn-primary" type="submit">Manager</button>
+	}
+	<hh1>@ViewBag.Dept</hh1>
+</div>
+<div class="card">
+	<div class="card-body">
+		@using (Html.BeginForm("EmployeeSeprate", "Home"))
+		{
+			<form id="inputForm" onsubmit="handleSubmit(event)">
+				<label for="inputBox">Employee:</label>
+				<input class="form-control" type="text" id="inputBox" name="EmployeeID" placeholder="Type something here..." required>
+				<button class="btn btn-success" type="submit">Submit</button>
+			</form>
+		}
+	</div>
+</div>

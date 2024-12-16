@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Card Payment</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+		}
+
+		.form-group {
+			margin-bottom: 15px;
+		}
+
+			.form-group label {
+				margin-left: 10px;
+			}
+
+			.form-group input[type="radio"] {
+				margin-right: 5px;
+			}
+
+		button {
+			padding: 10px 20px;
+			background-color: #007bff;
+			color: white;
+			border: none;
+			cursor: pointer;
+		}
+
+			button:hover {
+				background-color: #0056b3;
+			}
+	</style>
+</head>
+<body>
+	<h2>Card Payment</h2>
+	@using (Html.BeginForm("Index", "Home"))
+	{
+		<form id="paymentForm">
+			<!-- Radio Buttons for Card Type -->
+			<div class="form-group">
+				<input type="radio" id="debitCard" name="cardType" value="Debit Card">
+				<label for="debitCard">Debit Card</label>
+
+				<input type="radio" id="creditCard" name="cardType" value="Credit Card">
+				<label for="creditCard">Credit Card</label>
+			</div>
+
+			<!-- Submit Button -->
+			<div class="form-group">
+				<button type="submit">Submit</button>
+			</div>
+		</form>
+	}
+	<script>
+		document.getElementById("paymentForm").addEventListener("submit", function(event) {
+			event.preventDefault();
+			const selectedCardType = document.querySelector('input[name="cardType"]:checked');
+
+			if (selectedCardType) {
+				alert(`You selected: ${selectedCardType.value}`);
+			} else {
+				alert("Please select a card type before submitting!");
+			}
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|c:\\users\\shubham.prasad\\source\\repos\\prectise\\observerdesign\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|c:\\users\\shubham.prasad\\source\\repos\\prectise\\observerdesign\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|c:\\users\\shubham.prasad\\source\\repos\\prectise\\observerdesign\\deparments\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\deparments\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|c:\\users\\shubham.prasad\\source\\repos\\prectise\\observerdesign\\deparments\\it.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\deparments\\it.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|c:\\users\\shubham.prasad\\source\\repos\\prectise\\observerdesign\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|c:\\users\\shubham.prasad\\source\\repos\\prectise\\observerdesign\\subject\\resignation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\subject\\resignation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Program.cs",
+              "RelativeDocumentMoniker": "ObserverDesign\\Program.cs",
+              "ToolTip": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Program.cs",
+              "RelativeToolTip": "ObserverDesign\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T07:50:14.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Deparments\\Manager.cs",
+              "RelativeDocumentMoniker": "ObserverDesign\\Deparments\\Manager.cs",
+              "ToolTip": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Deparments\\Manager.cs",
+              "RelativeToolTip": "ObserverDesign\\Deparments\\Manager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T07:45:50.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ObserverDesign\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ObserverDesign\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T07:45:05.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resignation.cs",
+              "DocumentMoniker": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Subject\\Resignation.cs",
+              "RelativeDocumentMoniker": "ObserverDesign\\Subject\\Resignation.cs",
+              "ToolTip": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Subject\\Resignation.cs",
+              "RelativeToolTip": "ObserverDesign\\Subject\\Resignation.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T07:43:54.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IT.cs",
+              "DocumentMoniker": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Deparments\\IT.cs",
+              "RelativeDocumentMoniker": "ObserverDesign\\Deparments\\IT.cs",
+              "ToolTip": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Deparments\\IT.cs",
+              "RelativeToolTip": "ObserverDesign\\Deparments\\IT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T07:43:04.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ObserverDesign\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Shubham.Prasad\\source\\repos\\prectise\\ObserverDesign\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ObserverDesign\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T07:41:39.068Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
