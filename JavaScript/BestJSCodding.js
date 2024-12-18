@@ -118,5 +118,5 @@ function processUser(user) {
     notify(user);
   }
 
-  //  
+  // 
   

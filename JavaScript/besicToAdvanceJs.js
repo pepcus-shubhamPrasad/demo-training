@@ -185,3 +185,12 @@ const unique = [...new Set(arrvalu)];
 console.log(unique); // Output: [1, 2, 3, 4, 5]
 
 
+
+//Array Find and Filter function
+// Function to find the value frome the array
+
+const intArray = [1, 2, 2, 3, 4, 4, 5];
+const find = intArray.find(x=>x == 1); // output is [1] // return single element
+const filter = intArray.find(x => x > 1); // output is [2, 2, 3, 4, 4, 5]; return list 
+
+
