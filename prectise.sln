@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "Strategy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunction", "AzureFunction\AzureFunction.csproj", "{5EB8F20C-429C-4174-9911-E6FEE76CADF1}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "JavaScript", "JavaScript\JavaScript.esproj", "{9A0F864B-720E-4625-8BB8-2057A1F4F4FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesignTests", "ObserverDesignTests\ObserverDesignTests.csproj", "{2C9708E7-14CA-46E1-966D-BFF6971D0F1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,16 @@ Global
 		{5EB8F20C-429C-4174-9911-E6FEE76CADF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EB8F20C-429C-4174-9911-E6FEE76CADF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EB8F20C-429C-4174-9911-E6FEE76CADF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0F864B-720E-4625-8BB8-2057A1F4F4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0F864B-720E-4625-8BB8-2057A1F4F4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0F864B-720E-4625-8BB8-2057A1F4F4FA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9A0F864B-720E-4625-8BB8-2057A1F4F4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0F864B-720E-4625-8BB8-2057A1F4F4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0F864B-720E-4625-8BB8-2057A1F4F4FA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2C9708E7-14CA-46E1-966D-BFF6971D0F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9708E7-14CA-46E1-966D-BFF6971D0F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9708E7-14CA-46E1-966D-BFF6971D0F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9708E7-14CA-46E1-966D-BFF6971D0F1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
