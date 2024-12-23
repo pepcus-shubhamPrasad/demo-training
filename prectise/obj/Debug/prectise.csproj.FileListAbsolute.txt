@@ -5,10 +5,10 @@ C:\Users\Shubham.Prasad\source\repos\prectise\prectise\bin\Debug\prectise.exe
 C:\Users\Shubham.Prasad\source\repos\prectise\prectise\bin\Debug\prectise.pdb
 C:\Users\Shubham.Prasad\source\repos\prectise\prectise\obj\Debug\prectise.exe
 C:\Users\Shubham.Prasad\source\repos\prectise\prectise\obj\Debug\prectise.pdb
-D:\Git Hub Folder\demo-training\prectise\prectise\bin\Debug\prectise.exe.config
-D:\Git Hub Folder\demo-training\prectise\prectise\bin\Debug\prectise.exe
-D:\Git Hub Folder\demo-training\prectise\prectise\bin\Debug\prectise.pdb
-D:\Git Hub Folder\demo-training\prectise\prectise\obj\Debug\prectise.csproj.AssemblyReference.cache
-D:\Git Hub Folder\demo-training\prectise\prectise\obj\Debug\prectise.csproj.CoreCompileInputs.cache
-D:\Git Hub Folder\demo-training\prectise\prectise\obj\Debug\prectise.exe
-D:\Git Hub Folder\demo-training\prectise\prectise\obj\Debug\prectise.pdb
+D:\Git Hub Folder\Demo-Project\prectise\prectise\bin\Debug\prectise.exe.config
+D:\Git Hub Folder\Demo-Project\prectise\prectise\bin\Debug\prectise.exe
+D:\Git Hub Folder\Demo-Project\prectise\prectise\bin\Debug\prectise.pdb
+D:\Git Hub Folder\Demo-Project\prectise\prectise\obj\Debug\prectise.csproj.AssemblyReference.cache
+D:\Git Hub Folder\Demo-Project\prectise\prectise\obj\Debug\prectise.csproj.CoreCompileInputs.cache
+D:\Git Hub Folder\Demo-Project\prectise\prectise\obj\Debug\prectise.exe
+D:\Git Hub Folder\Demo-Project\prectise\prectise\obj\Debug\prectise.pdb

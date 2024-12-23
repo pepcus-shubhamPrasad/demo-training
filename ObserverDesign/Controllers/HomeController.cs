@@ -8,14 +8,16 @@ namespace ObserverDesign.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ILogger<HomeController> _logger;
         private readonly IAsset _it;
         private readonly IFinance _finance;
         private readonly IResignation  _Resignation;
         private readonly IHR  _ihr;
         private readonly Imanager  _imanager;
 
-        public HomeController(Imanager imanager , IFinance finance, IAsset it , IResignation resignation , IHR ihr)
+        public HomeController(ILogger<HomeController> logger, Imanager imanager , IFinance finance, IAsset it , IResignation resignation , IHR ihr)
         {
+            _logger = logger;
             _finance = finance;
             _it = it;
             _Resignation = resignation;
@@ -45,14 +47,14 @@ namespace ObserverDesign.Controllers
         public IActionResult Hr()
         {
             _ihr.HrLocated();
-            ViewBag.Dept = "HR - Calclulate Saleryq";
+            ViewBag.Dept = "HR - Calclulate Salery";
             return View("Index");
         }
 
         public IActionResult Manager()
         {
-            _imanager.AllocateImanager();
-            ViewBag.Dept = "Manager - Task Completed";
+            _ihr.HrLocated();
+            ViewBag.Dept = "HR - Calclulate Salery";
             return View("Index");
         }
         public IActionResult EmployeeSeprate(string EmployeeID)
