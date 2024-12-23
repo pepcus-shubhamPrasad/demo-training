@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Reservation Successful";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>Your reservation has been successfully created!</p>
+<p>Reservation ID: @ViewBag.ReservationId</p>
+<a href="@Url.Action("Index", "ParkingSpot")" class="btn btn-primary">Back to Parking Spots</a>

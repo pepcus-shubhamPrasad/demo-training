@@ -47,7 +47,7 @@ const y = 20; // Constant
 
 // Bad
 const messages = 'Hello, ' + name + '!';
-
+  
 // Good
 const messagees = `Hello, ${name}!`;
 

@@ -1,0 +1,39 @@
+﻿@model SpoteFinder.Domain.Entities.ParkingSpot
+
+@{
+    ViewData["Title"] = "Parking Spot Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Spot ID: @Model.SpotId</h5>
+        <p class="card-text"><strong>Address:</strong> @Model.Address</p>
+        <p class="card-text"><strong>Price Per Hour:</strong> @Model.PricePerHour</p>
+        <p class="card-text">
+            <strong>Availability:</strong>
+            <span class="availability-status">@((Model.IsAvailable) ? "Available" : "Booked")</span>
+        </p>
+
+        @if (Model.IsAvailable)
+        {
+            <form method="post" action="@Url.Action("Book", "Reservation")">
+                <input type="hidden" name="spotId" value="@Model.SpotId" />
+                <div class="form-group">
+                    <label for="startTime">Start Time:</label>
+                    <input type="datetime-local" id="startTime" name="startTime" class="form-control" required />
+                </div>
+                <div class="form-group">
+                    <label for="endTime">End Time:</label>
+                    <input type="datetime-local" id="endTime" name="endTime" class="form-control" required />
+                </div>
+                <button type="submit" class="btn btn-success mt-3">Book Spot</button>
+            </form>
+        }
+        else
+        {
+            <p class="text-danger">This parking spot is already booked.</p>
+        }
+    </div>
+</div>

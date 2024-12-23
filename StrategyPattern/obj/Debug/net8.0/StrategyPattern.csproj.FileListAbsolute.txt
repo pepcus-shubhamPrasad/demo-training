@@ -32,3 +32,37 @@ C:\Users\Shubham.Prasad\source\repos\prectise\StrategyPattern\obj\Debug\net8.0\r
 C:\Users\Shubham.Prasad\source\repos\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.pdb
 C:\Users\Shubham.Prasad\source\repos\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.genruntimeconfig.cache
 C:\Users\Shubham.Prasad\source\repos\prectise\StrategyPattern\obj\Debug\net8.0\ref\StrategyPattern.dll
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\bin\Debug\net8.0\appsettings.Development.json
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\bin\Debug\net8.0\appsettings.json
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\bin\Debug\net8.0\StrategyPattern.staticwebassets.endpoints.json
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\bin\Debug\net8.0\StrategyPattern.staticwebassets.runtime.json
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\bin\Debug\net8.0\StrategyPattern.exe
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\bin\Debug\net8.0\StrategyPattern.deps.json
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\bin\Debug\net8.0\StrategyPattern.runtimeconfig.json
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\bin\Debug\net8.0\StrategyPattern.dll
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\bin\Debug\net8.0\StrategyPattern.pdb
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.AssemblyInfoInputs.cache
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.AssemblyInfo.cs
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.csproj.CoreCompileInputs.cache
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.MvcApplicationPartsAssemblyInfo.cache
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.RazorAssemblyInfo.cache
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.RazorAssemblyInfo.cs
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\scopedcss\bundle\StrategyPattern.styles.css
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\scopedcss\projectbundle\StrategyPattern.bundle.scp.css
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\staticwebassets.build.json
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\staticwebassets.development.json
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\staticwebassets\msbuild.StrategyPattern.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\staticwebassets\msbuild.StrategyPattern.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\staticwebassets\msbuild.build.StrategyPattern.props
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StrategyPattern.props
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StrategyPattern.props
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.dll
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\refint\StrategyPattern.dll
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.pdb
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\StrategyPattern.genruntimeconfig.cache
+D:\Git Hub Folder\Demo-Project\prectise\StrategyPattern\obj\Debug\net8.0\ref\StrategyPattern.dll

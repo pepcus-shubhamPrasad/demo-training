@@ -3,48 +3,28 @@
   "WorkspaceRootPath": "D:\\Git Hub Folder\\demo-training\\prectise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EB8F20C-429C-4174-9911-E6FEE76CADF1}|AzureFunction\\AzureFunction.csproj|d:\\git hub folder\\demo-training\\prectise\\azurefunction\\demoshubham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB8F20C-429C-4174-9911-E6FEE76CADF1}|AzureFunction\\AzureFunction.csproj|solutionrelative:azurefunction\\demoshubham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git Hub Folder\\demo-training\\prectise\\ParkingSpoteFinder\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ParkingSpoteFinder\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EB8F20C-429C-4174-9911-E6FEE76CADF1}|AzureFunction\\AzureFunction.csproj|d:\\git hub folder\\demo-training\\prectise\\azurefunction\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB8F20C-429C-4174-9911-E6FEE76CADF1}|AzureFunction\\AzureFunction.csproj|solutionrelative:azurefunction\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB5DFF51-5DD0-4B1F-A80F-A6228C2B1046}|prectise\\prectise.csproj|D:\\Git Hub Folder\\demo-training\\prectise\\prectise\\ObserverPatterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5DFF51-5DD0-4B1F-A80F-A6228C2B1046}|prectise\\prectise.csproj|solutionrelative:prectise\\ObserverPatterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EB8F20C-429C-4174-9911-E6FEE76CADF1}|AzureFunction\\AzureFunction.csproj|d:\\git hub folder\\demo-training\\prectise\\azurefunction\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5EB8F20C-429C-4174-9911-E6FEE76CADF1}|AzureFunction\\AzureFunction.csproj|solutionrelative:azurefunction\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DB5DFF51-5DD0-4B1F-A80F-A6228C2B1046}|prectise\\prectise.csproj|D:\\Git Hub Folder\\demo-training\\prectise\\prectise\\FactoryDesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5DFF51-5DD0-4B1F-A80F-A6228C2B1046}|prectise\\prectise.csproj|solutionrelative:prectise\\FactoryDesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|d:\\git hub folder\\demo-training\\prectise\\observerdesign\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesignTests\\Controller\\HomeControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ObserverDesignTests\\Controller\\HomeControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|d:\\git hub folder\\demo-training\\prectise\\observerdesign\\deparments\\hr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\deparments\\hr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git Hub Folder\\demo-training\\prectise\\JavaScript\\besicToAdvanceJs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JavaScript\\besicToAdvanceJs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|d:\\git hub folder\\demo-training\\prectise\\observerdesign\\deparments\\it.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\deparments\\it.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|d:\\git hub folder\\demo-training\\prectise\\observerdesign\\deparments\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\deparments\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|d:\\git hub folder\\demo-training\\prectise\\observerdesign\\deparments\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\deparments\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|d:\\git hub folder\\demo-training\\prectise\\observerdesign\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|d:\\git hub folder\\demo-training\\prectise\\observerdesign\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|d:\\git hub folder\\demo-training\\prectise\\observerdesign\\subject\\resignation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C4432-C204-47ED-9E0A-7E69FF3AA824}|ObserverDesign\\ObserverDesign.csproj|solutionrelative:observerdesign\\subject\\resignation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git Hub Folder\\demo-training\\prectise\\JavaScript\\BestJSCodding.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JavaScript\\BestJSCodding.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,146 +34,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DemoShubham.cs",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\AzureFunction\\DemoShubham.cs",
-              "RelativeDocumentMoniker": "AzureFunction\\DemoShubham.cs",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\AzureFunction\\DemoShubham.cs",
-              "RelativeToolTip": "AzureFunction\\DemoShubham.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T16:28:31.789Z",
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\ParkingSpoteFinder\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ParkingSpoteFinder\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\ParkingSpoteFinder\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ParkingSpoteFinder\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-23T12:15:48.142Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Function1.cs",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\AzureFunction\\Function1.cs",
-              "RelativeDocumentMoniker": "AzureFunction\\Function1.cs",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\AzureFunction\\Function1.cs",
-              "RelativeToolTip": "AzureFunction\\Function1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:33:26.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "local.settings.json",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\AzureFunction\\local.settings.json",
-              "RelativeDocumentMoniker": "AzureFunction\\local.settings.json",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\AzureFunction\\local.settings.json",
-              "RelativeToolTip": "AzureFunction\\local.settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-16T15:33:21.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Finance.cs",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Deparments\\Finance.cs",
-              "RelativeDocumentMoniker": "ObserverDesign\\Deparments\\Finance.cs",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Deparments\\Finance.cs",
-              "RelativeToolTip": "ObserverDesign\\Deparments\\Finance.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:51:17.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HR.cs",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Deparments\\HR.cs",
-              "RelativeDocumentMoniker": "ObserverDesign\\Deparments\\HR.cs",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Deparments\\HR.cs",
-              "RelativeToolTip": "ObserverDesign\\Deparments\\HR.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:45:39.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Program.cs",
-              "RelativeDocumentMoniker": "ObserverDesign\\Program.cs",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Program.cs",
-              "RelativeToolTip": "ObserverDesign\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:50:14.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Deparments\\Manager.cs",
-              "RelativeDocumentMoniker": "ObserverDesign\\Deparments\\Manager.cs",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Deparments\\Manager.cs",
-              "RelativeToolTip": "ObserverDesign\\Deparments\\Manager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:45:50.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ObserverDesign\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ObserverDesign\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T07:45:05.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Resignation.cs",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Subject\\Resignation.cs",
-              "RelativeDocumentMoniker": "ObserverDesign\\Subject\\Resignation.cs",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Subject\\Resignation.cs",
-              "RelativeToolTip": "ObserverDesign\\Subject\\Resignation.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:43:54.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IT.cs",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Deparments\\IT.cs",
-              "RelativeDocumentMoniker": "ObserverDesign\\Deparments\\IT.cs",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Deparments\\IT.cs",
-              "RelativeToolTip": "ObserverDesign\\Deparments\\IT.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:43:04.481Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ObserverDesign\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesign\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ObserverDesign\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Title": "HomeControllerTests.cs",
+              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesignTests\\Controller\\HomeControllerTests.cs",
+              "RelativeDocumentMoniker": "ObserverDesignTests\\Controller\\HomeControllerTests.cs",
+              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\ObserverDesignTests\\Controller\\HomeControllerTests.cs",
+              "RelativeToolTip": "ObserverDesignTests\\Controller\\HomeControllerTests.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvxcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T07:41:39.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T11:10:08.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "besicToAdvanceJs.js",
+              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\JavaScript\\besicToAdvanceJs.js",
+              "RelativeDocumentMoniker": "JavaScript\\besicToAdvanceJs.js",
+              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\JavaScript\\besicToAdvanceJs.js",
+              "RelativeToolTip": "JavaScript\\besicToAdvanceJs.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-18T07:49:13.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BestJSCodding.js",
+              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\JavaScript\\BestJSCodding.js",
+              "RelativeDocumentMoniker": "JavaScript\\BestJSCodding.js",
+              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\JavaScript\\BestJSCodding.js",
+              "RelativeToolTip": "JavaScript\\BestJSCodding.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-18T07:48:57.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObserverPatterns.cs",
+              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\prectise\\ObserverPatterns.cs",
+              "RelativeDocumentMoniker": "prectise\\ObserverPatterns.cs",
+              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\prectise\\ObserverPatterns.cs",
+              "RelativeToolTip": "prectise\\ObserverPatterns.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T06:31:42.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FactoryDesign.cs",
+              "DocumentMoniker": "D:\\Git Hub Folder\\demo-training\\prectise\\prectise\\FactoryDesign.cs",
+              "RelativeDocumentMoniker": "prectise\\FactoryDesign.cs",
+              "ToolTip": "D:\\Git Hub Folder\\demo-training\\prectise\\prectise\\FactoryDesign.cs",
+              "RelativeToolTip": "prectise\\FactoryDesign.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:04:00.653Z"
             }
           ]
         }
