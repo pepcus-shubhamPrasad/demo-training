@@ -18,9 +18,11 @@ namespace SpoteFinder.Web.Controllers
             var spot = await _service.GetSpotByIdAsync(id);
             if (spot == null)
             {
-                return NotFound();
+                return NotFound("Parking Spot not found.");
             }
-            return View(spot);
+
+            // Return the partial view for the modal
+            return PartialView("_ParkingSpotDetails", spot);
         }
     }
 }

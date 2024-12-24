@@ -1,41 +1,201 @@
 ﻿@model IEnumerable<SpoteFinder.Domain.Entities.ParkingSpot>
-
 @{
-    ViewData["Title"] = "Available Parking Spots";
+	ViewData["Title"] = "Parking Lot";
 }
 
 <h2>@ViewData["Title"]</h2>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Spot ID</th>
-            <th>Address</th>
-            <th>Price Per Hour</th>
-            <th>Availability</th>
-            <th>Action</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var spot in Model)
-        {
-            <tr id="spot-@spot.SpotId">
-                <td>@spot.SpotId</td>
-                <td>@spot.Address</td>
-                <td>@spot.PricePerHour</td>
-                <td>
-                    <span class="availability-status">@((spot.IsAvailable) ? "Available" : "Booked")</span>
-                </td>
-                <td>
-                    <a href="@Url.Action("Details", "ParkingSpot", new { id = spot.SpotId })"
-                       class="btn btn-primary">View Details</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="parking-lot">
+	@foreach (var spot in Model)
+	{
+		<div class="parking-slot @(spot.IsAvailable ? "available" : "booked")">
+			<div class="slot-number">Slot @spot.SpotId</div>
+			<div class="slot-icon">
+				@if (spot.IsAvailable)
+				{
+					<i class="fa fa-check-circle available-icon"></i>
+				}
+				else
+				{
+					<i class="fa fa-times-circle booked-icon"></i>
+				}
+			</div>
+			<div class="slot-details">
+				<span>@spot.Address</span>
+				<span>@spot.PricePerHour.ToString("C") / hr</span>
+			</div>
+			@* <div class="slot-action">
+                @if (spot.IsAvailable)
+                {
+                    <a href="@Url.Action("Details", "ParkingSpot", new { id = spot.SpotId })" class="btn btn-success">Book Now</a>
+                }
+                else
+                {
+                    <button class="btn btn-danger" disabled>Unavailable</button>
+                }
+            </div> *@
+			<button class="btn @(spot.IsAvailable ? "btn-success" : "btn-danger")"
+					data-toggle="modal"
+					data-target="#parkingSpotModal"
+					onclick="loadParkingSpotDetails(@spot.SpotId)"
+			@(spot.IsAvailable ? "" : "disabled")>
+				@(spot.IsAvailable ? "Book Now" : "Unavailable")
+			</button>
+		</div>
+	}
+</div>
+
+<!-- Modal Popup -->
+@* <div class="modal fade" id="parkingSpotModal" tabindex="-1" aria-labelledby="parkingSpotModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="parkingSpotModalLabel">Parking Spot Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalContent">
+                <!-- Content dynamically loaded via JavaScript -->
+                <p>Loading...</p>
+            </div>
+        </div>
+    </div>
+</div> *@
+<div class="modal fade" id="parkingSpotModal" tabindex="-1" aria-labelledby="parkingSpotModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="parkingSpotModalLabel">Parking Spot Details</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body" id="modalContent">
+				<p>Loading...</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<style>
+	/* Parking Lot Container */
+	.parking-lot {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 15px;
+		margin: 20px 0;
+	}
+
+	/* Parking Slot Styling */
+	.parking-slot {
+		border: 2px solid #ccc;
+		border-radius: 10px;
+		background-color: #f9f9f9;
+		padding: 15px;
+		text-align: center;
+		position: relative;
+		transition: transform 0.2s ease, box-shadow 0.2s ease;
+	}
+
+		.parking-slot:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+		}
+
+		/* Colors for Availability */
+		.parking-slot.available {
+			background-color: #e8fce8; /* Light green for available */
+		}
+
+		.parking-slot.booked {
+			background-color: #fde8e8; /* Light red for booked */
+		}
+
+	/* Slot Number */
+	.slot-number {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+	/* Icon Styling */
+	.slot-icon {
+		font-size: 2rem;
+		margin-bottom: 10px;
+	}
+
+	.available-icon {
+		color: #4caf50; /* Green for available */
+	}
+
+	.booked-icon {
+		color: #f44336; /* Red for booked */
+	}
+
+	/* Slot Details */
+	.slot-details {
+		font-size: 0.9rem;
+		color: #555;
+		margin-bottom: 10px;
+	}
+
+	/* Buttons */
+	.slot-action .btn {
+		padding: 10px 20px;
+		font-size: 1rem;
+		border-radius: 5px;
+	}
+
+	.slot-action .btn-danger {
+		cursor: not-allowed;
+	}
+</style>
+
+<script>
+	
+	// Load parking spot details dynamically into modal
+
+		function loadParkingSpotDetails(spotId) {
+		console.log("Loading details for Spot ID:", spotId); // Debugging log
+		fetch(`/ParkingSpot/Details/${spotId}`)
+			.then(response => {
+				if (!response.ok) {
+					throw new Error(`HTTP error! status: ${response.status}`);
+				}
+				return response.text();
+			})
+			.then(data => {
+				debugger;
+				document.getElementById("modalContent").innerHTML = data;
+			})
+			.catch(error => {
+				console.error("Error loading details:", error);
+				document.getElementById("modalContent").innerHTML = "<p class='text-danger'>Failed to load details.</p>";
+			});
+	}
+
+</script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<!-- Include FontAwesome for Icons -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+
+
+<!-- Include Bootstrap JS and CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/signalr/3.1.7/signalr.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.15/signalr.min.js"></script>
+
 <script src="~/js/site.js"></script>
