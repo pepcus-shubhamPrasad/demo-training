@@ -41,7 +41,7 @@ namespace SpoteFinder.Application.Services
 
             // Use the notification service for real-time updates
             await _notificationService.NotifySpotAvailabilityChanged(spotId, false);
-            //await _notificationService.NotifyReservationCreated(spotId);
+            await _notificationService.NotifyReservationCreated(spotId);
 
             return reservation;
         }

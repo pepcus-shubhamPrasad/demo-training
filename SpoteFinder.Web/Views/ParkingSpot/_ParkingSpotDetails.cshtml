@@ -1,0 +1,31 @@
+﻿@model SpoteFinder.Domain.Entities.ParkingSpot
+
+<div>
+    <p><strong>Spot ID:</strong> @Model.SpotId</p>
+    <p><strong>Address:</strong> @Model.Address</p>
+    <p><strong>Price Per Hour:</strong> @Model.PricePerHour.ToString("C")</p>
+    <p>
+        <strong>Availability:</strong>
+        <span>@(Model.IsAvailable ? "Available" : "Booked")</span>
+    </p>
+
+    @if (Model.IsAvailable)
+    {
+        <form method="post" action="/Reservation/Book">
+            <input type="hidden" name="spotId" value="@Model.SpotId" />
+            <div class="form-group">
+                <label for="startTime">Start Time:</label>
+                <input type="datetime-local" id="startTime" name="startTime" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="endTime">End Time:</label>
+                <input type="datetime-local" id="endTime" name="endTime" class="form-control" required />
+            </div>
+            <button type="submit" class="btn btn-success mt-3">Confirm Booking</button>
+        </form>
+    }
+    else
+    {
+        <p class="text-danger">This parking spot is already booked.</p>
+    }
+</div>

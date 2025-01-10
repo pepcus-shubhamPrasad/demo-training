@@ -20,7 +20,7 @@ namespace SpoteFinder.Web.Services
 
         public async Task NotifyReservationCreated(int spotId)
         {
-            await _hubContext.Clients.All.SendAsync("ReservationCreated", spotId);
+            await _hubContext.Clients.All.SendAsync("ReceiveSpotAvailabilityUpdate", spotId , false);
         }
     }
 }

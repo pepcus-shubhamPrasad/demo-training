@@ -32,12 +32,12 @@ namespace SpoteFinder.Persistence.Repository
                 query = query.Where(p => p.PricePerHour <= maxPrice);
             }
 
-            return await query.Where(p => p.IsAvailable).ToListAsync();
+            return await query.ToListAsync();
         }
 
         public async Task<ParkingSpot> GetSpotByIdAsync(int spotId)
         {
-            return await _context.ParkingSpots.FindAsync(spotId);
+            return (await _context.ParkingSpots.FindAsync(spotId))!;
         }
 
         public async Task UpdateSpotAvailabilityAsync(int spotId, bool isAvailable)

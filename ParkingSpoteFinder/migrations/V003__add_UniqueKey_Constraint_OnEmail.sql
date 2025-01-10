@@ -1,0 +1,2 @@
+ALTER TABLE Employees
+ADD CONSTRAINT UC_Email UNIQUE (Email);
